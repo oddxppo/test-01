@@ -82,7 +82,10 @@
 }
 .one
 {
+  font-size: 0.9rem;
+  font-weight: bold;
   color: whitesmoke;
+  margin-right: 0.4rem;
 }
 .two
 {
