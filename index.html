@@ -50,9 +50,49 @@
           </p>
         </div>
         <div class="right-top-svg">
-          <img src="polyfills-svgrepo-com.svg">
+          <img src="polyfills-svgrepo-com.svg" id="movingImage">
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              const container = document.querySelector(".right-top-svg");
+              const image = document.getElementById("movingImage");
+
+              container.addEventListener("mouseenter", function () {
+                image.style.transform = "scale(1.2)";
+              });
+
+              container.addEventListener("mouseleave", function () {
+                image.style.transform = "scale(0.85)";
+              });
+            });
+
+          </script>
         </div>
+
+        
       </div>
+        <div class="works">
+          <div class="works-inner">
+            <span class="title">varzesh3.com</span>
+            <span class="year">1399 - 1402</span>
+          </div>
+          <div class="works-inner">
+            <span class="title">varzesh3.com</span>
+            <span class="year">1399 - 1402</span>
+          </div>
+          <div class="works-inner">
+            <span class="title">varzesh3.com</span>
+            <span class="year">1399 - 1402</span>
+          </div>
+          <div class="works-inner">
+            <span class="title">varzesh3.com</span>
+            <span class="year">1399 - 1402</span>
+          </div>
+        </div>
+        <div class="right-bottom">
+          <a href="#">Facebook</a>
+          <a href="#">E-mail</a>
+
+        </div>
 
     </div>
 
