@@ -1,0 +1,35 @@
+.right 
+{
+  display: flex;
+  width: 400px;
+  height: 100%;
+  flex-direction: column;
+}
+.right-top
+{
+  background-color: #043175;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.right-top-text
+{
+  width: 345px;
+  color: whitesmoke;
+  padding: 15px;
+  margin: 15px auto;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.right-top-text img
+{
+  width: 18px;
+  height: 18px;
+}
+.right-top-svg
+{
+  margin: 25px auto;
+}

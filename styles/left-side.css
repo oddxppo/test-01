@@ -1,0 +1,51 @@
+
+
+
+.left
+{
+  display: flex;
+  width: 400px;
+  height: 100%;
+  background-color: #043175;
+  margin: 10px;
+  flex-direction: column;
+  border-radius: 30px;
+}
+
+.left-text-top
+{
+  color:whitesmoke;
+  width: 180px;
+  line-height: 0.8;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.subtitle
+{
+  color: rgb(151, 149, 149);
+  margin-top: 10px;
+}
+.img
+{
+
+  object-fit: cover;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img
+{
+  width: 300px;
+  height: 300px;
+}
+
+.left-paragraph-bottom
+{
+  margin-top: 25px;
+  padding: 15px;
+  color: whitesmoke;
+  line-height: 1.6;
+  text-align:justify;
+}
