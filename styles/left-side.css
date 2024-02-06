@@ -4,7 +4,7 @@
 .left
 {
   display: flex;
-  width: 400px;
+  max-width: 400px;
   /* height: 100vh; */
   background-color: #043175;
   margin: 10px;

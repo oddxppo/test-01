@@ -25,4 +25,9 @@ body {
   {
     flex-direction: column;
   }
+  .left,
+  .right
+  {
+    max-width: 390px;
+  }
 }
