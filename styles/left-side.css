@@ -26,6 +26,13 @@
   color: rgb(151, 149, 149);
   margin-top: 10px;
 }
+.subtitletwo 
+{
+  color: rgb(255, 255, 255);
+  margin-top: 0.4rem;
+  opacity: 0.4;
+  font-weight: 600;
+}
 .img
 {
 
