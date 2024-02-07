@@ -9,7 +9,7 @@
 .right-top
 {
   background-color: #043175;
-  border-radius: 30px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +47,7 @@
 .scroller
 {
   margin-top: 5px;
-  border-radius: 30px;
+  border-radius: 20px;
   padding: 1rem;
   max-width: 400px;
   background-color: #043175;
@@ -101,11 +101,11 @@
 {
   height: 60px;
   background-color: #043175;
-  border-radius: 30px;
+  border-radius: 20px;
   display: flex;
   justify-content:left;
   align-items: center;
-  gap: 2rem;
+  gap: 1.2rem;
   margin-top: 5px ;
   margin-bottom: 5px;
   padding: 15px 20px;
